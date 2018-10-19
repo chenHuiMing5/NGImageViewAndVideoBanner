@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846F29B02179DE88003CF9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F29AF2179DE88003CF9DB /* AppDelegate.m */; };
+		846F29B32179DE88003CF9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F29B22179DE88003CF9DB /* ViewController.m */; };
+		846F29B62179DE88003CF9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846F29B42179DE88003CF9DB /* Main.storyboard */; };
+		846F29B92179DE89003CF9DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846F29B72179DE89003CF9DB /* LaunchScreen.storyboard */; };
+		846F29BC2179DE89003CF9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F29BB2179DE89003CF9DB /* main.m */; };
+		846F29C62179DE8A003CF9DB /* NGImageViewAndVideoBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F29C52179DE8A003CF9DB /* NGImageViewAndVideoBannerTests.m */; };
+		846F29D12179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 846F29D02179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846F29C22179DE8A003CF9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846F29A32179DE88003CF9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846F29AA2179DE88003CF9DB;
+			remoteInfo = NGImageViewAndVideoBanner;
+		};
+		846F29CD2179DE8A003CF9DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846F29A32179DE88003CF9DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846F29AA2179DE88003CF9DB;
+			remoteInfo = NGImageViewAndVideoBanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846F29AB2179DE88003CF9DB /* NGImageViewAndVideoBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGImageViewAndVideoBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846F29AE2179DE88003CF9DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		846F29AF2179DE88003CF9DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		846F29B12179DE88003CF9DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		846F29B22179DE88003CF9DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		846F29B52179DE88003CF9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846F29B82179DE89003CF9DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846F29BA2179DE89003CF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846F29BB2179DE89003CF9DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		846F29C12179DE8A003CF9DB /* NGImageViewAndVideoBannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGImageViewAndVideoBannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846F29C52179DE8A003CF9DB /* NGImageViewAndVideoBannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGImageViewAndVideoBannerTests.m; sourceTree = "<group>"; };
+		846F29C72179DE8A003CF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846F29CC2179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NGImageViewAndVideoBannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846F29D02179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGImageViewAndVideoBannerUITests.m; sourceTree = "<group>"; };
+		846F29D22179DE8A003CF9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846F29A82179DE88003CF9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F29BE2179DE8A003CF9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F29C92179DE8A003CF9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846F29A22179DE88003CF9DB = {
+			isa = PBXGroup;
+			children = (
+				846F29AD2179DE88003CF9DB /* NGImageViewAndVideoBanner */,
+				846F29C42179DE8A003CF9DB /* NGImageViewAndVideoBannerTests */,
+				846F29CF2179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests */,
+				846F29AC2179DE88003CF9DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846F29AC2179DE88003CF9DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846F29AB2179DE88003CF9DB /* NGImageViewAndVideoBanner.app */,
+				846F29C12179DE8A003CF9DB /* NGImageViewAndVideoBannerTests.xctest */,
+				846F29CC2179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846F29AD2179DE88003CF9DB /* NGImageViewAndVideoBanner */ = {
+			isa = PBXGroup;
+			children = (
+				846F29AE2179DE88003CF9DB /* AppDelegate.h */,
+				846F29AF2179DE88003CF9DB /* AppDelegate.m */,
+				846F29B12179DE88003CF9DB /* ViewController.h */,
+				846F29B22179DE88003CF9DB /* ViewController.m */,
+				846F29B42179DE88003CF9DB /* Main.storyboard */,
+				846F29B72179DE89003CF9DB /* LaunchScreen.storyboard */,
+				846F29BA2179DE89003CF9DB /* Info.plist */,
+				846F29BB2179DE89003CF9DB /* main.m */,
+			);
+			path = NGImageViewAndVideoBanner;
+			sourceTree = "<group>";
+		};
+		846F29C42179DE8A003CF9DB /* NGImageViewAndVideoBannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				846F29C52179DE8A003CF9DB /* NGImageViewAndVideoBannerTests.m */,
+				846F29C72179DE8A003CF9DB /* Info.plist */,
+			);
+			path = NGImageViewAndVideoBannerTests;
+			sourceTree = "<group>";
+		};
+		846F29CF2179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846F29D02179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests.m */,
+				846F29D22179DE8A003CF9DB /* Info.plist */,
+			);
+			path = NGImageViewAndVideoBannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846F29AA2179DE88003CF9DB /* NGImageViewAndVideoBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846F29D52179DE8A003CF9DB /* Build configuration list for PBXNativeTarget "NGImageViewAndVideoBanner" */;
+			buildPhases = (
+				846F29A72179DE88003CF9DB /* Sources */,
+				846F29A82179DE88003CF9DB /* Frameworks */,
+				846F29A92179DE88003CF9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGImageViewAndVideoBanner;
+			productName = NGImageViewAndVideoBanner;
+			productReference = 846F29AB2179DE88003CF9DB /* NGImageViewAndVideoBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846F29C02179DE8A003CF9DB /* NGImageViewAndVideoBannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846F29D82179DE8A003CF9DB /* Build configuration list for PBXNativeTarget "NGImageViewAndVideoBannerTests" */;
+			buildPhases = (
+				846F29BD2179DE8A003CF9DB /* Sources */,
+				846F29BE2179DE8A003CF9DB /* Frameworks */,
+				846F29BF2179DE8A003CF9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846F29C32179DE8A003CF9DB /* PBXTargetDependency */,
+			);
+			name = NGImageViewAndVideoBannerTests;
+			productName = NGImageViewAndVideoBannerTests;
+			productReference = 846F29C12179DE8A003CF9DB /* NGImageViewAndVideoBannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846F29CB2179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846F29DB2179DE8A003CF9DB /* Build configuration list for PBXNativeTarget "NGImageViewAndVideoBannerUITests" */;
+			buildPhases = (
+				846F29C82179DE8A003CF9DB /* Sources */,
+				846F29C92179DE8A003CF9DB /* Frameworks */,
+				846F29CA2179DE8A003CF9DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846F29CE2179DE8A003CF9DB /* PBXTargetDependency */,
+			);
+			name = NGImageViewAndVideoBannerUITests;
+			productName = NGImageViewAndVideoBannerUITests;
+			productReference = 846F29CC2179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846F29A32179DE88003CF9DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ngmmxh;
+				TargetAttributes = {
+					846F29AA2179DE88003CF9DB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					846F29C02179DE8A003CF9DB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 846F29AA2179DE88003CF9DB;
+					};
+					846F29CB2179DE8A003CF9DB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 846F29AA2179DE88003CF9DB;
+					};
+				};
+			};
+			buildConfigurationList = 846F29A62179DE88003CF9DB /* Build configuration list for PBXProject "NGImageViewAndVideoBanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846F29A22179DE88003CF9DB;
+			productRefGroup = 846F29AC2179DE88003CF9DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846F29AA2179DE88003CF9DB /* NGImageViewAndVideoBanner */,
+				846F29C02179DE8A003CF9DB /* NGImageViewAndVideoBannerTests */,
+				846F29CB2179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846F29A92179DE88003CF9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846F29B62179DE88003CF9DB /* Main.storyboard in Resources */,
+				846F29B92179DE89003CF9DB /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F29BF2179DE8A003CF9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F29CA2179DE8A003CF9DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846F29A72179DE88003CF9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846F29B32179DE88003CF9DB /* ViewController.m in Sources */,
+				846F29BC2179DE89003CF9DB /* main.m in Sources */,
+				846F29B02179DE88003CF9DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F29BD2179DE8A003CF9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846F29C62179DE8A003CF9DB /* NGImageViewAndVideoBannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846F29C82179DE8A003CF9DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846F29D12179DE8A003CF9DB /* NGImageViewAndVideoBannerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846F29C32179DE8A003CF9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846F29AA2179DE88003CF9DB /* NGImageViewAndVideoBanner */;
+			targetProxy = 846F29C22179DE8A003CF9DB /* PBXContainerItemProxy */;
+		};
+		846F29CE2179DE8A003CF9DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846F29AA2179DE88003CF9DB /* NGImageViewAndVideoBanner */;
+			targetProxy = 846F29CD2179DE8A003CF9DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846F29B42179DE88003CF9DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846F29B52179DE88003CF9DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846F29B72179DE89003CF9DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846F29B82179DE89003CF9DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846F29D32179DE8A003CF9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		846F29D42179DE8A003CF9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846F29D62179DE8A003CF9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VZL4H46N5;
+				INFOPLIST_FILE = NGImageViewAndVideoBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NG.NGImageViewAndVideoBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846F29D72179DE8A003CF9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VZL4H46N5;
+				INFOPLIST_FILE = NGImageViewAndVideoBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NG.NGImageViewAndVideoBanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		846F29D92179DE8A003CF9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VZL4H46N5;
+				INFOPLIST_FILE = NGImageViewAndVideoBannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NG.NGImageViewAndVideoBannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGImageViewAndVideoBanner.app/NGImageViewAndVideoBanner";
+			};
+			name = Debug;
+		};
+		846F29DA2179DE8A003CF9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VZL4H46N5;
+				INFOPLIST_FILE = NGImageViewAndVideoBannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NG.NGImageViewAndVideoBannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NGImageViewAndVideoBanner.app/NGImageViewAndVideoBanner";
+			};
+			name = Release;
+		};
+		846F29DC2179DE8A003CF9DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VZL4H46N5;
+				INFOPLIST_FILE = NGImageViewAndVideoBannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NG.NGImageViewAndVideoBannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NGImageViewAndVideoBanner;
+			};
+			name = Debug;
+		};
+		846F29DD2179DE8A003CF9DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3VZL4H46N5;
+				INFOPLIST_FILE = NGImageViewAndVideoBannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.NG.NGImageViewAndVideoBannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NGImageViewAndVideoBanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846F29A62179DE88003CF9DB /* Build configuration list for PBXProject "NGImageViewAndVideoBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846F29D32179DE8A003CF9DB /* Debug */,
+				846F29D42179DE8A003CF9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846F29D52179DE8A003CF9DB /* Build configuration list for PBXNativeTarget "NGImageViewAndVideoBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846F29D62179DE8A003CF9DB /* Debug */,
+				846F29D72179DE8A003CF9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846F29D82179DE8A003CF9DB /* Build configuration list for PBXNativeTarget "NGImageViewAndVideoBannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846F29D92179DE8A003CF9DB /* Debug */,
+				846F29DA2179DE8A003CF9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846F29DB2179DE8A003CF9DB /* Build configuration list for PBXNativeTarget "NGImageViewAndVideoBannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846F29DC2179DE8A003CF9DB /* Debug */,
+				846F29DD2179DE8A003CF9DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846F29A32179DE88003CF9DB /* Project object */;
+}
